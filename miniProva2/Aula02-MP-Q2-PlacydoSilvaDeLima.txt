@@ -1,0 +1,33 @@
+/*
+ *
+ * Instituto Federal de Educação, Ciência e Tecnologia - IFPE
+ * Cursos: Informática para Internet | Sistemas para Internet
+ * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
+ * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
+ *
+ * Nome completo: Nome Completo do(a) estudante
+ * Curso: Responder TSI ou IPI
+ * Aula: Aula 02 - Algoritmos - Mini-prova
+ * Questão: 2 
+ *
+ */
+
+
+Ingredientes
+	Prateleira 
+	Mesa
+	Papel
+	Caneta
+
+Passos
+	1. Retirar todos os livros da prateleira e colocalos na mesa;
+	2. Organizar espaços livres na mesa;
+	3. Separar papel e caneta;
+	4. Com papel e caneta, Escrever Romance, Didático, Suspense e Outros, em quatro folhas diferentes;
+	5. Colocar cada uma das folhas nos espaços livres da mesa;
+	6. Pegar livro por livro e colocar junto a folha que mais se encaixa em relação ao tipo literário;
+	7. Após se parar todos os livros, estudar a estante e enteder quais os melhores lugareas para despor os tipos com base na quantidade;
+	8. Pegar livro por livro do tipo Romance e colocar na estante;
+	9. Pegar livro por livro do tipo Didático e colocar na estante;
+	10. Pegar livro por livro do gênero Suspense e colocar na estante;
+	11. Pegar livro por livro do gênero Outros e colocar na estante;

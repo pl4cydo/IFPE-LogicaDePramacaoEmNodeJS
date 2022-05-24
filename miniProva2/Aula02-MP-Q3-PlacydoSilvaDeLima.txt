@@ -1,0 +1,41 @@
+/*
+ *
+ * Instituto Federal de Educação, Ciência e Tecnologia - IFPE
+ * Cursos: Informática para Internet | Sistemas para Internet
+ * Componentes Curriculares: Lógica de Programação e Estrutura de Dados | Introdução à Programação Imperativa
+ * Professor: Allan Lima - allan.lima@igarassu.ifpe.edu.br
+ *
+ * Nome completo: Plácydo
+ * Curso: Responder TSI ou IPI
+ * Aula: Aula 02 - Algoritmos - Mini-prova
+ * Questão: 3
+ *
+ */
+
+Ingredientes
+	Televisão
+	Cabo de energia
+	Cabo da antena  // Caso da antena (escrito errado)
+	Controle remoto
+	Cabo ethernet // constava nos passos, mas não nos ingredientes
+	Furadeira // adicionado
+	Parafusos // adicionado
+	Suporte de parede // adicionado
+Passos
+	/*
+	1. Aperte o botão de power da televisão; // Por que apertar o botão power da tevê desligada?
+	2. Ligue o cabo da energia na entrada de energia;
+	3. Ligue o cabo da antena na entrada HDMI; // A entrada da antena e entrada HDMI são para funcionabilidades diferentes.
+	4. Configure a conexão da TV com a internet que foi feita através do cabo ethernet.
+	*/
+
+	1. Caso a televizão for nova;
+	2. retire da caixa;
+	3. Se não, inicie escolhendo em qual lugar ela vai ficar;
+	4. Caso for colocar na parede;
+	5. Separe a furadeira, parafusos e suporte, fure a parede e coloque a tevê em sua posição na parede;
+	6. Se não, coloque a televizão no lugar mais adequado;
+	7. Conecte cabo de energia, cabo da antena e cabo de ethernet em suas respectivas entradas;
+	8. Plug o cabo de energia na tomada fêmea;
+	9. Com o controle remoto ligue a televisão;
+	10. Caso precise configure os canais e internet;
