@@ -8,7 +8,7 @@ var soma = 0
 
 for (i=0; i<mankey.length; i++) {
     mult = mankey[i] * abra[i]
-        soma = soma + mult
+    soma = soma + mult
 }
 
 
