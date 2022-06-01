@@ -25,11 +25,21 @@ a.forEach((n) => {
 })
 */
 
-var notas = [9,9,9,9,1,3.4] 
-var media = 0
+// var notas = [9,9,9,9,1,3.4] 
+// var media = 0
 
-for (let i = 0; i < notas.length; i++) {
-    media = media + notas[i]
+// for (let i = 0; i < notas.length; i++) {
+//     media = media + notas[i]
+// }
+// media = media / notas.length
+// console.log(media.toFixed(2))
+
+function elemento(vetor1,vetor2){
+	for(let cont = 0; cont < vetor1.length; cont++){
+		vetor2[cont] = vetor1[cont]
+	}
+	return vetor2
 }
-media = media / notas.length
-console.log(media.toFixed(2))
+var vetor1 = [1,2,3,4,5]
+var vetor2 = []
+console.log(elemento(vetor1,vetor2))
