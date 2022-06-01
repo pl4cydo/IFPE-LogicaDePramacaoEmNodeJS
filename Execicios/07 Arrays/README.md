@@ -25,12 +25,9 @@ Nível 2
 
     1. Implementar um subprograma que dadas a quantidade de linhas e de colunas, cria um array de duas dimensões com a quantidade de linhas e colunas especificadas, inicializa seus índices com o valor -1, o imprime e o retorna;
     2. Implementar subprograma que dados dois arrays bidimensionais, copia o conteúdo do primeiro no segundo array;
-    3. Implementar subprograma que dados três arrays bidimensionais, guarda no terceiro array a soma dos índices equivalentes no dois primeiros;
-Exemplo: c[1][2] = a[1][2] + b[1][2]; // e assim por diante
-    4. Implementar um subprograma que dados dois arrays bidimensionais, escreve no segundo array a transcrição do primeiro;
-Exemplo: b[linha,coluna] = a[coluna,linha]
-    5. Implementar um subprograma que dado um array tridimensional, computa a média de seus elementos;
-Dica: são necessários três for’s aninhados para computar a média
+    3. Implementar subprograma que dados três arrays bidimensionais, guarda no terceiro array a soma dos índices equivalentes no dois primeiros; Exemplo: c[1][2] = a[1][2] + b[1][2]; // e assim por diante
+    4. Implementar um subprograma que dados dois arrays bidimensionais, escreve no segundo array a transcrição do primeiro; Exemplo: b[linha,coluna] = a[coluna,linha]
+    5. Implementar um subprograma que dado um array tridimensional, computa a média de seus elementos; Dica: são necessários três for’s aninhados para computar a média
     6. Implementar um subprograma que dados dois arrays bidimensionais, retorna qual deles possui a maior soma de seus elementos;
     7. Implementar um subprograma que dado um array bidimensional, computa a média dos seus elementos, conta e retorna quantos elementos acima da média ele possui;
     8. Implementar um programa que dado um array bidimensional, atribui 0 a todos os elementos presentes em suas diagonais.
