@@ -2,13 +2,13 @@
 
 const naruto = [
     [1,3],
-    [7,5]
+    [7,5,11]
 ]
 
 function arcanine (array) {
     let quant = 0
     for (i = 0; i < array.length; i++) {
-        for (j = 0; j < array.length; j++) {
+        for (j = 0; j < array[i].length; j++) {
             if (array[i][j] % 2 != 0) {
                 quant++
             } 
