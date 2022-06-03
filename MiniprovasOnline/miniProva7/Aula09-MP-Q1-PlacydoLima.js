@@ -31,18 +31,22 @@
 // Linha 1, coluna 0
 
 function arcanine (array, num) {
+    let parador = false;
     for (i = 0; i < array.length; i++) {
-        for (j = 0; j < array.length; j++) {
+        if (parador == true) break
+        for (j = 0; j < array[i].length; j++) {
             if (array[i][j] == num) {
                 console.log(`${'Linha ' + i + ', Coluna ' + j}`)
+                parador = true
             }
+            if (parador == true) break
         }    
     }
 }
 
 let landorus = [
-    [1,2,3],
-    [4,5,6],
+    [1,2,3,6],
+    [4,6,6],
     [7,8,9]
 ]
 
