@@ -47,7 +47,7 @@ function arcanine (array, num) {
 let landorus = [
     [1,2,3,6],
     [4,6,6],
-    [7,8,9]
+    [7,8]
 ]
 
 let elemento = 6;
