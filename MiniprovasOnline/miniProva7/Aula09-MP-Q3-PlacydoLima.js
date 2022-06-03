@@ -37,7 +37,7 @@ function funcFuncFunc(arr) {
     let a = 0
 
     for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length; j++){
+        for (let j = 0; j < arr[i].length; j++){
             if (arr[i][j] == 0) {
                 a++
             }
@@ -47,9 +47,9 @@ function funcFuncFunc(arr) {
 }
 
 let landorus = [
-    [0,1,2],
+    [0,1,2,0],
     [3,4,5],
-    [0,8,0]
+    [0,8,0,0,0]
 ]
 
 console.log(funcFuncFunc(landorus))
