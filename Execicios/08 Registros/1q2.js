@@ -1,25 +1,17 @@
 // Implemente no node.js os seguintes tipos e, ao menos, uma operação (função) sobre o mesmo:
-// Filme
+// Quadrado
 
-class filme {
-    constructor (name, time) {
-        this.name = name
-        this.time = time
+class quadrado {
+    constructor(lado) {
+        this.lado = lado
     }
 }
 
-let arcanine = [
-    ['matrix', 120],
-    ['homemAranha', 140],
-    ['harryPotter', 130]
-]
+let lado = new quadrado(15)
 
-for (i = 0; i < arcanine.length; i++) {
-    for (j = 0; j < arcanine[i].length; j++) { 
-        if (j == 0) {
-            let leitor = new filme(arcanine[i][j], arcanine[i][j+1])
-            console.log(leitor)
-        }
-    }
+function arcanine(l) {
+    let area = l**2
+    console.log(lado)
+    console.log(`${'A area do quadrado é: ' + area}`)
 }
-
+arcanine(lado.lado)
