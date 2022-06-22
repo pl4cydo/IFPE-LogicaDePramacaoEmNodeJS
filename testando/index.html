@@ -7,43 +7,50 @@
 <body>
     <!-- O bloco onde tudo está contido -->
     <div id="container"> 
-        <!-- O topo do bloco, onde fica o os personagens e status -->
-        <div id="topRow">
-            <!-- Player1 e seu status -->
-            <!-- Imagem do Player1 -->
-            <div id="stats_player1" class="stats">
-                <span class="healthlablel">HEALTH</span><br>
-                <div class="hpBorder">
-                    <div id="player1hp" class="hpBar"></div>
+        <!-- Div para colocar uma imagem de fundo -->
+        <div id="background">
+            <img src="images/backgound.png" id="ibagen" alt="">
+            
+            <!-- Uma div junta o topRow e o bottomRow -->
+            <div id="bloco_total">
+                <!-- O topo do bloco, onde fica o os personagens e status -->
+                <div id="topRow">
+                    <!-- Player1 e seu status -->
+                    <!-- Imagem do Player1 -->
+                    <div id="stats_player1" class="stats">
+                        <span class="healthlablel">HEALTH</span><br>
+                        <div class="hpBorder">
+                            <div id="player1hp" class="hpBar"></div>
+                        </div>
+                    </div>
+                    <!-- Imagem do Player 1 -->
+                    <div id="player1" class="chars">
+                        <img src="images/player1.png" alt="player1">
+                    </div>
+
+                    <!-- Boss e seus status -->
+                    <!-- Imagend do Boss -->
+                    <div id="boss" class="chars">
+                        <img src="images/boss_semfundo.png" alt="boss">
+                    </div>
+                    <!-- Status do Boss -->
+                    <div id="stats" class="stats">
+                        <span class="healthlablel">HEALTH</span><br>
+                        <div class="hpBorder">
+                            <div id="bosshp" class="hpBar"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Parte inferior do bloco onde vão ficar os ataques -->
+                <div id="bottomRow">
+                    <h1>Hora de dar um quebra!</h1>
+                    <p>Você esta na frente do Final Boss! Cuidado! ele pode cortar sua verba.</p>
+
                 </div>
             </div>
-            <!-- Imagem do Player 1 -->
-            <div id="player1" class="chars">
-                <img src="images/player1.png" alt="player1">
-            </div>
-
-            <!-- Boss e seus status -->
-            <!-- Imagend do Boss -->
-            <div id="boss" class="chars">
-                <img src="images/boss_semfundo.png" alt="boss">
-            </div>
-            <!-- Status do Boss -->
-            <div id="stats" class="stats">
-                <span class="healthlablel">HEALTH</span><br>
-                <div class="hpBorder">
-                    <div id="bosshp" class="hpBar"></div>
-                </div>
-
-            </div>
-
         </div>
-        <!-- Parte inferior do bloco onde vão ficar os ataques -->
-        <div id="bottomRow">
-            <h1>Hora de dar um quebra!</h1>
-            <p>Você esta na frente do Final Boss! Cuidado! ele pode cortar sua verba.</p>
-
-        </div>
-
     </div>
 <script type="text/javascript" src="script.js"></script>
 </body>
