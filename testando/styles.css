@@ -1,0 +1,66 @@
+/* parte de cima do bloco */
+#topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid;
+    border-color: red; */
+    align-items: flex-end;
+}
+
+/* Player 1 */
+#player1 {
+    /* border: 1px solid; */
+}
+
+#player1 img {
+    height: 200px;
+    margin-top: 150px;
+}
+
+/* Boss */
+#boss {
+    /* border: 1px solid; */
+}
+
+/* Classe das divis que contem as imagens dos personagens */
+.chars {
+    margin: 15px 40px;
+}
+
+/* Parte de baixo do bloco principal */
+#bottomRow {
+    padding: 20px;
+    font: 20pt Arial;
+}
+
+/* Criando barra de status */
+
+/* Classe que está nas divis principais dos status (bloco) */
+.stats {
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid;
+    border-color: blue; */
+}
+
+/* Classe que esta nos titulos da barra de status */
+.healthlablel {
+    font: 18pt Arial;
+    font-weight: bold;
+}
+
+ /* Classe da borda do HP */
+.hpBorder {
+    width: 240px;
+    height: 30px;
+    /* border: 3px solid;
+    border-color: black; */
+}
+
+/* Classe do HP em si */
+.hpBar {
+    width: 240px;
+    height: 30px;
+    background-color: green;
+}
