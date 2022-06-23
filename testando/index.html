@@ -16,12 +16,17 @@
                 <!-- O topo do bloco, onde fica o os personagens e status -->
                 <div id="topRow">
                     <!-- Player1 e seu status -->
-                    <!-- Imagem do Player1 -->
+                    <!--Status do Player1 -->
                     <div id="stats_player1" class="stats">
-                        <span class="healthlablel">HEALTH</span><br>
+                        <span class="healthlablel">SUPER MARLON</span><br>
+                        <span class="healthlablel">HP:</span><br> 
                         <div class="hpBorder">
                             <div id="player1hp" class="hpBar"></div>
                         </div>
+                         <p>
+                            <span class="healthlablel">MOVIMENTOS</span><br> 
+                            <button onclick="murro()" class="buttonStyle">MURRO</button>                            
+                         </p>
                     </div>
                     <!-- Imagem do Player 1 -->
                     <div id="player1" class="chars">
@@ -34,8 +39,9 @@
                         <img src="images/boss_semfundo.png" alt="boss">
                     </div>
                     <!-- Status do Boss -->
-                    <div id="stats" class="stats">
-                        <span class="healthlablel">HEALTH</span><br>
+                    <div id="stats_boss" class="stats">
+                        <span class="healthlablel">MESSIAH</span><br>
+                        <span class="healthlablel">HP:</span><br>
                         <div class="hpBorder">
                             <div id="bosshp" class="hpBar"></div>
                         </div>
@@ -47,6 +53,7 @@
                 <div id="bottomRow">
                     <h1>Hora de dar um quebra!</h1>
                     <p>Você esta na frente do Final Boss! Cuidado! ele pode cortar sua verba.</p>
+                    <button onclick="comecarBatalha()" class="buttonStyle" >COMEÇAR!!</button>
 
                 </div>
             </div>

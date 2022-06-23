@@ -46,9 +46,11 @@
 
 /* Parte de baixo do bloco principal */
 #bottomRow {
-    margin-top: 50px;
-    padding: 20px;
-    font: 20pt Arial;
+    margin-top: 20px;
+    padding: 0px;
+    font: 15pt Arial;
+    text-align: center;
+   
 }
 
 /* Criando barra de status */
@@ -56,23 +58,43 @@
 /* Classe que está nas divis principais dos status (bloco) */
 .stats {
     width: 250px;
-    height: 300px;
+    height: 400px;
     /* border: 1px solid;
     border-color: blue; */
+    padding: 5px;
+    padding-right: -30px;
+    visibility: hidden;
+}
+
+.buttonStyle {
+    background-color: white;
+    border: 3px solid;
+    border-color: black;
+    font: 24pt Arial;
+    border-radius: 7px;
+    padding: 5px 15PX;
+    font-weight:bold;
+}
+
+.buttonStyle:hover {
+    background-color: black;
+    color: white;
 }
 
 /* Classe que esta nos titulos da barra de status */
 .healthlablel {
     font: 18pt Arial;
     font-weight: bold;
+
 }
+
 
  /* Classe da borda do HP */
 .hpBorder {
     width: 240px;
     height: 30px;
-    /* border: 3px solid;
-    border-color: black; */
+    border: 3px solid;
+    border-color: black;
 }
 
 /* Classe do HP em si */
