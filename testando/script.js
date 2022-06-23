@@ -4,6 +4,7 @@ var stats = document.getElementsByClassName('stats')
 var stats_player1 = document.getElementById('stats_player1')
 var player1hp = document.getElementById('player1hp')
 var bosshp = document.getElementById('bosshp')
+var playermoves = document.getElementById('playermoves')
 
 // Definição de variaveis de hp:
 var p1hp = 100;
@@ -23,10 +24,17 @@ function murro(){
     if (ataque >= 13) {
         let dano = Math.round(Math.random()*10) + 5
         bshp -= dano
+        if (bshp < 0) {
+            bshp = 0;
+        }
         bottomRow.innerHTML = "Seu aque foi certeiro! Seu dano foi igual a: " + dano + ", O HP do MESSIAH agora é: " + bshp + "hp";
         let danoPorcento = (bshp/100)*240;
         bosshp.style.width = danoPorcento + "px"
     } else {
         bottomRow.innerHTML = "Você errou!" 
+    }
+    if (bshp == 0) {
+        bottomRow.innerHTML += " Você derrotou o MESSIAH!"
+        playermoves.style.visibility = "hidden";
     }
 }
