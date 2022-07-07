@@ -2,7 +2,7 @@
 // sobre o mesmo (dicas: utilize arrays, se vocẽ não souber qual operação implementar
 // tente fazer uma função para buscar e retornar um elemento na lista):
 // Lista de Filmes
-let buscar_filme = 'star wars'
+let buscar_filme = 'donnie darko'
 
 class lista_filmes {
     constructor (a, b, c, d) {
