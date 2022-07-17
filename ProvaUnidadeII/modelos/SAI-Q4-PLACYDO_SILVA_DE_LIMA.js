@@ -32,7 +32,7 @@
 //     }
 // } 
 // ****COMENTARIO****
-// se estamos usando uma classe, alám da funçao tá torta, tem jeito melhores de usar a classe para
+// se estamos usando uma classe, além da funçao tá torta, tem jeitos melhores de usar a classe para
 // calcular, como por exemplo janela1.largura * janela1.altura
 
 
@@ -44,7 +44,7 @@
     }
 }
 
-let janelaBrastemp = new Janela("Brastemp", 20, 20);
+let janelaBrastemp = new Janela("Brastemp", 10, 10);
 let janelaNintendo = new Janela("Nintendo", 15, 15);
 
 console.log(janelaBrastemp)
